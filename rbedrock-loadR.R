@@ -1,4 +1,4 @@
-#"Rbedrock.r" by hamblingreen. A script relying on tidyverse and rbedrock whose function is to load and update these two packages and output a confirmation/error accordingly
+#"rbedrock-loadR.R" by hamblingreen. A script relying on tidyverse and rbedrock whose function is to load and update these two packages and output a confirmation/error accordingly, all credit for developing Rbedrock goes ro Rufus Atticus
 
 if("rbedrock" %in% (.packages())){
   print("Rbedrock is already loaded, lol!")
